@@ -1,0 +1,550 @@
+<html>
+	<head>
+		<title>project</title>
+		<style type="text/css">
+			body{
+				margin:0;
+				}
+				#mainarea{
+					width:1500px;
+					height:4500px;
+					background:white;
+					}
+				#front1area{
+					width:1500px;
+					height:25px;
+					background:white;
+					padding:15px 10px;
+					font-color:black;
+					font-size:15px;
+					font-family:times;
+					text-align:left;
+					}
+				#blankarea{
+					width:1500px;
+					height:10px;
+					background:#006341;
+					}
+				#newarea{
+					width:1500px;
+					height:200px;
+					background:black;				
+					}
+					.box{
+					width:160px;
+					height:150px;
+					background:black;
+					float:left;
+					}
+					.box img{
+						width:180px;
+						height:160px;
+						}
+				#new1area{
+					width:1500px;
+					height:45px;
+					background:#FFFFFF;
+					position:sticky;
+					top:0;
+					z-index:1400;
+					}
+				
+					#new1area ul{
+							list-style:none;
+							margin:0;
+							padding:0;
+						}
+					#new1area ul li{
+						float:left;
+						}
+					#new1area ul li a:link, #new1area ul li a:visited{
+						background:white;
+						padding:10px 25px;
+						text-decoration:none;
+						display:block;
+						color:black;
+						 border-right:solid 1px black; 
+						}
+					#new1area ul li a:hover{
+						background:black;
+						color:white;
+						}
+					#new1area ul li ul{
+						display:none;
+						}
+					#new1area ul li:hover ul{
+						display:block;
+						position:absolute;
+						z-index:100;
+						}
+					#new1area ul li:hover ul li{
+						float:none;
+						}
+					#new1area ul li:hover ul li a:link,#menuarea ul li:hover ul li a:visited{
+						border:none;
+						border-bottom:solid 1px black;
+						}
+				#slidearea{
+					width:1469px;
+					height:50px;
+					background:black;
+					padding:20px 15px;
+					font-size:50px;
+					font-family:times;
+					text-align:center;
+					text-shadow: 5px 5px 6px rgba(182, 184, 1, 1);
+					}
+				#darea{
+					width:1500px;
+					height:30px;
+					background:black;
+					font-size:15px;
+					font-family:times;
+					text-align:center;
+					}
+				#barea{
+					width:1500px;
+					height:100px;
+					background:black;
+					font-size:16px;
+					font-family:times;
+					text-align:center;
+					}
+				#doarea{
+					width:1500px;
+					height:600px;
+					background-image:url('g1.jpg');
+					background-position:center;
+					}
+				#top2area{
+					width:1500px;
+					height:800px;
+					background-image:url('g2.jpg');
+					background-position:center;
+					background-attachment:fixed;
+					}
+					#t1area{
+						width:600px;
+						height:70px;
+						font-size:30px;
+						font-family:Arial Black;
+						text-align:center;
+						background-color:transparent;
+						padding:30px 15px ;
+						}
+					#t2area{
+						width:600px;
+						height:80px;
+						font-size:70px;
+						font-family:arial;
+						text-align:center;
+						background-color:transparent;
+						}
+					#t3area{
+						width:600px;
+						height:90px;
+						font-size:70px;
+						font-family:arial;
+						text-align:center;
+						background-color:transparent;
+						}
+					#t4area{
+						width:575px;
+						height:90px;
+						font-size:20px;
+						font-family:times;
+						text-align:center;
+						background-color:transparent;
+						padding-left:25px;
+						}
+					#blockarea{
+						width:1500px;
+						height:650px;
+						background-color:Black;
+						}
+						.squre{
+							width:250px;
+							height:250px;
+							background:#EAEAEA;
+							float:left;
+							margin-left:65px;
+							margin-right:60px;
+							margin-top:25px;
+							margin-bottom:25px;
+							}
+						.squre img{
+							width:250px;
+							height:250px;
+							border:1px black;
+							}
+						.squre img:hover{
+						width:90%;
+						height:90%;
+						padding:5%;
+						}
+				#carea{
+					width:1500px;
+					height:500px;
+					background-image:url('new2.jpg');
+					background-position:center;
+					background-repeat:no-repeat;
+					background-attachment:fixed;
+					}
+					#c1area{
+						width:500px;
+						height:200px;
+						font-size:60px;
+						font-family:Arial Black;
+						text-align:left;
+						background-color:transparent;
+						padding:10px 30px;
+						text-shadow:5px 3px 4px rgba(0,0,0,0.69);
+
+						}
+					#c2area{
+						width:500px;
+						height:100px;
+						font-size:40px;
+						font-family:Arial Black;
+						text-align:left;
+						background-color:transparent;
+						padding:10px 30px;
+						text-shadow:5px 3px 4px rgba(0,0,0,0.69);
+						}
+					#c2area a:link, #c2area a:visited{
+						background:tranparent;
+						text-decoration:none;
+						display:block;
+						color:white;
+						}
+					#c2area a:hover{
+						background:tranparent;
+						color:#E2C907;
+						}
+				#regionarea{
+					width:1500px;
+					height:100px;
+					background-color:#EAEAEA;
+					text-align:center;
+					font-size:40px;
+					text-decoration:underline;
+					text-shadow:0 -2px 10px #ff0;
+					}
+				
+				#selectarea{
+					width:1500px;
+					height:300px;
+					background-color:black;
+					}
+					.circle{
+						width:250px;
+						height:100px;
+						float:left;
+						background-color:black;
+						margin-left:110px;
+						margin-right:80px;
+						margin-top:25px;
+						margin-bottom:25px;
+						border:inset 20px white;
+						font-size:30px;
+						font-family:URW Chancery L, cursive;
+						text-align:center;
+						}
+						.circle a:link,.circle a:visited{
+						background:black;
+						padding:31px 25px;
+						text-decoration:none;
+						display:block;
+						color:white;
+						}
+					.circle a:hover{
+						background:#EAEAEA;
+						color:black;
+						}
+					.circle2{
+						width:110px;
+						height:105px;
+						/*background:red;*/
+						border-radius:50%;
+						margin:-180px 160px 15px 80px;
+						}
+						.circle2 img{
+							width:110px;
+							height:105px;;
+							border-radius:50%;
+							}
+				#farea{
+					width:1500px;
+				 	height:500px;
+					background:black;
+					}
+				#footerarea{
+					width:1470px;
+				 	height:300px;
+					background-image:url('og.jpg');
+					background-attachment:fixed;
+					font-size:30px;
+					font-family:impact;
+					text-align:left;
+					padding-top:70px;
+					padding-left:30px;
+					text-shadow:-5px 5px 0px #00e6e6;
+					}
+				#footarea{
+					width:1500px;
+				 	height:500px;
+					background:white;
+					}
+				
+				#footer1area{
+					width:1500px;
+				 	height:80px;
+					background:black;
+					}
+				#footer2area{
+					width:1500px;
+				 	height:150px;
+					background:#EAEAEA;
+						}
+					#f1area,#f2area,#f3area,#f4area,#f5area{
+					width:260px;
+					height:150px;
+					background-image:#EAEAEA;
+					float:left;
+					padding-left:40px;
+					}
+					#f1area ul,#f2area ul,#f3area ul,#f4area ul,#f5area ul{
+							list-style:none;
+							margin:0;
+							padding:0;
+							list-style-type:square;
+							list-style-image:url('http://mpsckp.com/images/arr.png');
+							list-style-position:inside;
+							}
+					#f1area ul li a:link,#f1 ul li a:visited,#f2area ul li a:link,#f2 ul li a:visited,#f3area ul li a:link,#f3 ul li a:visited,#f4area ul li a:link,#f4 ul li a:visited,#f5area ul li a:link,#f5 ul li a:visited{
+						text-decoration:none;
+						font-color:black;
+						}
+					#f1area ul li a:hover,#f2area ul li a:hover,#f3area ul li a:hover,#f4area ul li a:hover,#f5area ul li a:hover{
+						color:green;
+						}
+				#footer3area{
+					width:1500px;
+				 	height:60px;
+					background-image:#EAEAEA;
+					}
+					#footer3area img{
+						width:1500px;
+				 		height:60px;
+						}
+			
+				#footer4area{
+					width:1440px;
+				 	height:50px;
+					background-image:linear-gradient(-35deg,white 0%,white 33%,grey 0%,grey 33%,black 51%,black 100%);
+					font-size:15px;
+					font-family:impact;
+					text-align:left;
+					padding-top:20px;
+					padding-left:40px;
+					}
+		</style>
+	</head>
+	<body>
+		<div id="mainarea">
+			<div id="front1area">
+				<b> ONLINE GAMING SYSTEM</b>
+			</div> 
+			<div id="blankarea">
+			</div>
+			<div id="newarea">
+				<div class="box">
+				</div>
+				<div class="box">
+				</div>
+				<div class="box">
+				</div>
+				<div class="box">
+				</div>
+				<div class="box">
+					<img src="logo.jpg"/>
+				</div>
+				
+			</div>
+			<div id="new1area">
+				<ul>
+						<li> <a href="#">HOME</a></li>
+						<li> <a href="#">ABOUT US </a></li>
+						<li> <a href="#">MENU</a>
+							<ul>
+								<li><a href="#">CALL OF DUTY</a>	</li>	
+								<li><a href="#">PUBG</a>	</li>
+								<li><a href="#">MARIO</a>	</li>
+								<li><a href="#">MINIMILITIA</a>	</li>
+								<li><a href="#">MOBILE LEGEND</a>	</li>
+								<li><a href="#">SUBWAY SUFFERS</a>	</li>
+								<li><a href="#">ASPHALT8</a>	</li>
+								<li><a href="#">COC</a>	</li>
+								
+							</ul>
+						</li>
+						<li> <a href="#">CAREERS</a></li>
+						<li> <a href="#">RESPONSIBILITY</a></li>
+						<li> <a href="#">REWARDS</a></li>
+						<li> <a href="#"> SEASON'S GIFTING</a></li>
+						<li> <a href="#">OFFER</a></li>
+						<li> <a href="#">INVENTORY</a></li>
+						<li> <a href="#">SETTINGS</a></li>
+				</ul>
+			</div>
+			<div id="slidearea">
+				<font color="white">Welcome to <b>VIRTUAL WORLD</b></font>
+			</div>
+			<div	id="darea">
+				
+				
+			</div>
+			<div	id="barea">
+			 <font color="white">It's more important to master the cards you're holding than to complain about the ones your opponent was dealt.</font>
+			</div>
+			<div	id="doarea">
+			</div>
+			<div id="top2area">
+				<div	id="t1area">
+					<font color="#ADD8F2">Find youself</font>
+					<hr color="white">
+				</div>
+				<div	id="t2area">
+					<font color="white">Gaming zone,</font>
+				</div>
+				<div	id="t3area">
+					<font color="#E2C907">BE carefull!</font>
+				</div>
+				<div	id="t4area">
+					<font color="white">To say that nothing is true is to realize that the foundations of society are fragile and that we must be the shepherds of our own civilization.</font>
+				</div>
+			</div>
+			<div	id="blockarea">
+				<div class="squre">
+					<img src="M1.jpg"/>
+				</div>
+				<div class="squre">
+					<img src="M2.jpg"/>
+				</div>
+				<div class="squre">
+					<img src="M3.jpg"/>
+				</div>
+				<div class="squre">
+					<img src="M4.jpg"/>
+				</div>
+				<div class="squre">
+					<img src="M5.jpg"/>
+				</div>
+				<div class="squre">
+					<img src="M6.jpg"/>
+				</div>
+				<div class="squre">
+					<img src="M7.jpg"/>
+				</div>
+				<div class="squre">
+					<img src="M8.jpg"/>
+	 			</div>
+			</div>
+			<div	id="carea">
+				
+				<div	id="c1area">
+					<font color="white">NEW UPDATES</font>
+					
+				</div>
+				<div	id="c2area">
+					
+				</div>
+			</div>
+			<div	id="regionarea">
+				Select your MODE
+			</div>
+			
+			<div	id="selectarea">
+				<div	class="circle">
+					<font color="white">	<a href="#">single</a>	</font>
+					<div	class="circle2">
+						<img src="solo.jpg"/>
+					</div>
+				</div>
+				<div	class="circle">
+					<font color="white">	<a href="#">Multi</a>	</font>
+					<div	class="circle2">
+						<img src="multi.jpg"/>
+					</div>
+				</div>
+				<div	class="circle">
+					<font color="white">	<a href="#">Local</a>	</font>
+					<div	class="circle2">
+						<img src="loc.jpg"/>
+					</div>
+				</div>
+			</div>
+			<div	id="farea">
+				<iframe width="1500" height="415" src="https://www.youtube.com/embed/ZFwylDNpgFc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div	id="footerarea">
+				<font color="white">"A game is the complete exploration of freedom within a restrictive environment."</font>
+			</div>
+			
+			<div	id="footer1area">
+			</div>
+			<div	id="footer2area">
+				<div	id="f1area">
+					<ul>
+						 <h4>ENQUIRY</h4>
+						<li> <a href="#"> Menu</a></li>
+						<li> <a href="#"> Finder</a></li>
+						<li> <a href="#">Customer Care</a></li>
+					</ul>
+				</div>
+				<div	id="f2area">
+					<ul>
+						 <h4>Combos</h4>
+						<li> <a href="#">What's New</font></a></li>
+						<li> <a href="#">Combo</a></li>
+						<li> <a href="#">Neutritional Info</a></li>
+					</ul>
+					
+				</div>
+				<div	id="f3area">
+					<ul>
+						<h4>SHOP</h4>
+						<li> <a href="#">	settings	</a></li>
+						<li> <a href="#">	message	</a></li>
+						<li> <a href="#">	Gifts	</a></li>
+					</ul>
+				</div>
+				<div	id="f4area">
+					<ul>
+						 <h4>BUSINESS</h4>
+						<li> <a href="#">	Lease Enquiry	</a></li>
+						<li> <a href="#">	Advertise With Us	</a></li>
+						
+					</ul>
+					
+				</div>
+				<div	id="f5area">
+					<ul>
+						<h4>ABOUT US</h4>
+						<li> <a href="#">	News & Events	</a>	</li>
+						<li> <a href="#">	Foundation	</a>	</li>
+						<li> <a href="#">	Careers	</a>	</li>
+					</ul>
+				</div>
+					<hr width="100%">
+			</div>
+			
+			<div	id="footer4area">
+				<font color="white">© onlinegaming. All rights reserved.</font>
+			</div>
+		</div>
+	</body>
+		
+			
+		
+		
